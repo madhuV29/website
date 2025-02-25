@@ -45,6 +45,21 @@ nav ul li a.active {
   margin-right: 10px;
 }
 
+.publication, .project {
+  background: white;
+  padding: 15px;
+  margin: 10px 0;
+  border-left: 5px solid #004f90;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.publication h3, .project h3 {
+  color: #004f90;
+  margin-bottom: 5px;
+}
+.publication p, .project p {
+  margin: 5px 0;
+}
+
 footer {
   background: #004f90;
   color: white;
