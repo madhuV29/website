@@ -1,160 +1,54 @@
-/* --------------------------
-   GLOBAL STYLES
----------------------------- */
 body {
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
-  color: #333;
-  line-height: 1.6;
-  background-color: #fefefe;
+  background: #f8f8f8;
 }
 
-a {
-  color: #004f90;
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: underline;
-}
-
-/* Container */
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 1em;
-  background-color: #fff;
-}
-
-/* Header */
-.header {
+header {
+  background: #004f90;
+  color: white;
+  padding: 1rem;
   text-align: center;
-  margin-bottom: 1em;
-  padding-bottom: 0.5em;
-  border-bottom: 2px solid #eee;
-}
-.header h1 {
-  font-size: 2rem;
-  margin-bottom: 0.3em;
-}
-.contact-info {
-  font-size: 0.9rem;
-  color: #666;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.7em;
-  justify-content: center;
-}
-.contact-info span {
-  display: flex;
-  align-items: center;
-  gap: 0.25em;
-}
-.contact-info i {
-  color: #666;
 }
 
-/* Last Updated */
-.last-updated {
-  text-align: right;
-  font-size: 0.85rem;
-  color: #999;
-  margin-top: -0.5em;
-}
-
-/* Sections */
-section {
-  margin-bottom: 1.5em;
-}
-section h2 {
-  margin-top: 2em;
-  font-size: 1.25rem;
-  color: #004f90;
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 0.3em;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}
-section h3 {
-  margin-top: 0.75em;
-  font-size: 1rem;
-  font-weight: bold;
-  color: #333;
-}
-section .sub {
-  font-size: 0.9rem;
-  color: #666;
-}
-article {
-  margin-bottom: 0.5em;
-}
-.date-loc {
-  font-style: italic;
-  color: #666;
-  font-size: 0.9rem;
-}
-
-/* List */
-ul {
-  list-style: circle;
-  margin: 0.5em 0 1em 1.4em;
+nav ul {
+  list-style: none;
   padding: 0;
 }
-li {
-  margin-bottom: 0.4em;
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
 }
 
-/* Two-column style: label on left, content on right */
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+nav ul li a.active {
+  font-weight: bold;
+}
+
 .two-col {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
-  margin-bottom: 0.5em;
-}
-.two-col .left {
-  display: flex;
   align-items: center;
-  gap: 0.5em;
-}
-.two-col .right {
-  text-align: right;
-  font-size: 0.9rem;
-  color: #666;
+  margin-bottom: 1rem;
 }
 
-/* Logos */
 .institution-logo, .company-logo {
   width: 50px;
   height: auto;
-  vertical-align: middle;
-  margin-right: 0.5em;
+  margin-right: 10px;
 }
 
-/* Divider (horizontal line) */
-.divider {
-  margin: 0.5em 0;
-  border: none;
-  border-top: 1px solid #ccc;
-}
-
-/* Footer */
 footer {
+  background: #004f90;
+  color: white;
   text-align: center;
-  margin-top: 2em;
-  font-size: 0.9rem;
-  color: #999;
-}
-.page-count {
-  margin: 0;
-}
-
-/* Responsive */
-@media (max-width: 600px) {
-  .two-col {
-    flex-direction: column;
-  }
-  .two-col .right {
-    text-align: left;
-    margin-top: 0.2em;
-  }
+  padding: 1rem;
+  margin-top: 2rem;
 }
