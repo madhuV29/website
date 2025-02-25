@@ -1,3 +1,89 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f8f8f8;
+}
+
+/* Centered Container with Margins */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+header {
+  background: #004f90;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+nav ul li a.active {
+  font-weight: bold;
+}
+
+/* Content Sections */
+main {
+  padding: 20px;
+}
+
+/* Publications & Projects */
+.publication, .project {
+  background: white;
+  padding: 15px;
+  margin: 15px 0;
+  border-left: 5px solid #004f90;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Resume Link */
+.resume-link {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.resume-link a {
+  color: #004f90;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.resume-link a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background: #004f90;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 20px;
+}
+
+/* 
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -67,3 +153,4 @@ footer {
   padding: 1rem;
   margin-top: 2rem;
 }
+ */
