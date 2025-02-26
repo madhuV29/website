@@ -170,10 +170,11 @@ footer {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Logo Styling */
+/* Allow Different Logo Sizes While Keeping Alignment */
 .institution-logo, .company-logo {
-  width: 70px;  /* Set a fixed size for all logos */
-  height: auto;
+  max-height: 20px;  /* Prevents logos from becoming too large */
+  max-width: 30px;  /* Adjust width automatically */
+  height: auto;  /* Maintain original proportions */
   margin-right: 15px;
 }
 
