@@ -40,6 +40,17 @@ body {
   background: #f8f8f8;
 }
 
+/* Centered Container for Home Page */
+.home-content {
+  max-width: 700px;  /* Controls the width of the text */
+  margin: 40px auto; /* Adds top & bottom margins and centers content */
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Centers text */
+}
+
 /* Centered Container */
 .container {
   max-width: 700px; /* Set a proper width instead of full page */
