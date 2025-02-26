@@ -83,6 +83,36 @@ footer {
   margin-top: 50px;
 }
 
+/* About Page Layout */
+.about-content {
+  padding: 20px;
+}
+
+/* Two-column layout (Logo + Details) */
+.two-col {
+  display: flex;
+  align-items: center;  /* Aligns logo and text in a row */
+  margin-bottom: 15px;
+  padding: 10px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo Styling */
+.institution-logo, .company-logo {
+  width: 70px;  /* Set a fixed size for all logos */
+  height: auto;
+  margin-right: 15px;
+}
+
+/* Divider */
+.divider {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 15px 0;
+}
+
 /* 
 body {
   font-family: Arial, sans-serif;
