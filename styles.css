@@ -53,7 +53,7 @@ main {
 .publication, .project {
   background: white;
   padding: 15px;
-  margin: 15px 10;
+  margin: 15px 0;
   border-left: 5px solid #004f90;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
@@ -61,7 +61,7 @@ main {
 /* Resume Link */
 .resume-link {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .resume-link a {
